@@ -11928,3 +11928,9 @@ Served asset /font-awesome.min.css - 304 Not Modified (0ms)
 
 Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 127.0.0.1 at 2013-05-13 16:57:25 -0400
 Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 17:00:12 -0400
+Connecting to database specified by database.yml
+Compiled justinin.css  (251ms)  (pid 17465)
+Served asset /justinin.css - 200 OK (255ms)
