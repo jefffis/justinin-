@@ -1,0 +1,22 @@
+<%
+f_array = ['Cool','Seasonings','Fuscia','Bogard','Ween','Fully Loaded','Comic','Crackers','Funions','T-shirt','Bruise','Shellfish','Awkward','Pea Soup']
+s_array = ['Story','Intro','Pants','Books','Cords','Herbie','Desktop','Android','Tinkle','Snickers','Whatevs','Weight','Typography','Nsync','Rump']
+f = f_array.sample
+s = s_array.sample
+t = Time.new
+fs = f.gsub(' ','+')
+ss = s.gsub(' ','+')
+%>
+<div class="wrap">
+	<%= image_tag('http://lorempixel.com/500/250/nightlife/') %>
+	<h1><span><em id="first"><%= f %></em> <em id="second"><%= s %></em></span>, bro</h1>
+	<p>Justin Windholtz, <span><%= t.strftime('%A %B, %Y') %></span></p>
+	<button id="icon"><span class="icon-refresh"></span></button>
+	<button id="share"><a href="https://twitter.com/intent/tweet?status='<%= fs %>+<%= ss %>,+bro'++Justin Windholtz,+<%= t.strftime('%A %B, %Y') %>++/via+<%= request.url %>" target="_blank"><span class="icon-twitter-sign"></span></button>
+</div>
+<script>
+	var button = document.getElementById('icon');
+	button.onclick = function(){
+		location.reload();
+	};
+</script>

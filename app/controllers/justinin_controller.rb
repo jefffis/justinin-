@@ -1,0 +1,2 @@
+class JustininController < ApplicationController
+end
