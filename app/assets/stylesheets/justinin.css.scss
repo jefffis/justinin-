@@ -35,14 +35,14 @@ html, body {
 }
 body {
 	display: table;
-	padding: 0 4em;
+	padding: 2em 0;
 }
 .wrap {
 	display: table-cell;
 	height: 100%;
 	width: 100%;
 	vertical-align: middle;
-	padding: 2em 0;
+	padding: 0 4em;
 	text-align: center;
 }
 h1 {
@@ -165,9 +165,15 @@ button {
 
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 	body {
-		padding: 4em 0;
+		padding: 0;
+		display: block;
+		margin: 0 auto;
+		overflow-x: hidden
+	}
+	.wrap {
+		padding: 0;
 	}
 	h1 {
 		font-size: 4em;
