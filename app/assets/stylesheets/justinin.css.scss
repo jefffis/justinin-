@@ -165,22 +165,27 @@ button {
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
 	body {
 		padding: 0;
 		display: block;
 		margin: 0 auto;
-		overflow-x: hidden
+		width: 100%;
+		overflow-x: hidden;
 	}
 	.wrap {
 		padding: 0;
+		width: 100%;
+		display: block;
 	}
 	h1 {
 		font-size: 4em;
-		padding: 0 1em;
+		padding: 0;
+		width: 95%;
+		margin: 0 auto;
 	}
 	p {
-		padding: 0 1em;
+		padding: 0;
 	}
 	button {
 		font-size: 1em;
