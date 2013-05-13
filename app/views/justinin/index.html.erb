@@ -12,7 +12,7 @@ ss = s.gsub(' ','+')
 	<h1><span><em id="first"><%= f %></em> <em id="second"><%= s %></em></span>, bro</h1>
 	<p>Justin Windholtz, <span><%= t.strftime('%A %B, %Y') %></span></p>
 	<button id="icon"><span class="icon-refresh"></span></button>
-	<button id="share"><a href="https://twitter.com/intent/tweet?status='<%= fs %>+<%= ss %>,+bro'++Justin Windholtz,+<%= t.strftime('%A %B, %Y') %>++/via+@wunstinj++/from+<%= request.url %>" target="_blank"><span class="icon-twitter-sign"></span></button>
+	<button id="share"><a href="https://twitter.com/intent/tweet?status='<%= fs %>+<%= ss %>,+bro'++Justin Windholtz,+<%= t.strftime('%A %B, %Y') %>+++/from+<%= request.url %>" target="_blank"><span class="icon-twitter-sign"></span></button>
 </div>
 <script>
 	var button = document.getElementById('icon');
