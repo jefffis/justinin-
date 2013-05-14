@@ -15327,3 +15327,1682 @@ Served asset /font-awesome.min.css - 304 Not Modified (0ms)
 
 Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 21:55:12 -0400
 Served asset /justinin.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+Connecting to database specified by database.yml
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+Served asset /font-awesome.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (1ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:04 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 192.168.1.4 at 2013-05-13 21:58:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:58:11 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:12 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:12 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:12 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:13 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:25 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:26 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:58:34 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:35 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:35 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:35 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:52 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:53 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:58:56 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:56 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:56 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:58:56 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:57 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:58:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 21:59:17 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 21:59:17 -0400
+Served asset /justinin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 21:59:17 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-05-13 21:59:17 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:59:29 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:30 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:30 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:30 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:34 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:44 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 21:59:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 21:59:48 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:48 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:48 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 21:59:48 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:02 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 22:00:12 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (219ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 236ms (Views: 235.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:12 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:12 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:12 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 127.0.0.1 at 2013-05-13 22:00:12 -0400
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:00:18 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:18 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:18 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:18 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:19 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:19 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:00:23 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:23 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:23 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:23 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:24 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:27 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:28 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 22:00:40 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (215ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 230ms (Views: 230.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:41 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:41 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:41 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 127.0.0.1 at 2013-05-13 22:00:41 -0400
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 22:00:45 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (219ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 240ms (Views: 240.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:45 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:45 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 22:00:45 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 127.0.0.1 at 2013-05-13 22:00:45 -0400
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:00:53 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:54 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:54 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:00:54 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:57 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:00:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:01:01 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:01 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:01 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:01 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:02 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:02 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:01:35 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (190ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 226ms (Views: 226.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:37 -0400
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:37 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:01:37 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:41 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:01:42 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:02:11 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (214ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 230ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:11 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:11 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:11 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:15 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:02:21 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:21 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:21 -0400
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:21 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:24 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:02:35 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (213ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 229ms (Views: 228.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:35 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:35 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:35 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:02:56 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:57 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:57 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:02:57 -0400
+Served asset /justinin.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:58 -0400
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:02:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 192.168.1.4 at 2013-05-13 22:02:59 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 192.168.1.4 at 2013-05-13 22:03:11 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (215ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 230ms (Views: 229.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 192.168.1.4 at 2013-05-13 22:03:12 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.168.1.4 at 2013-05-13 22:03:12 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 192.168.1.4 at 2013-05-13 22:03:12 -0400
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:03:14 -0400
+Served asset /fontawesome-webfont.woff - 200 OK (0ms)
+
+
+Started GET "/font/fontawesome-webfont.woff?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:03:14 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.woff"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/font/fontawesome-webfont.ttf?v=3.0.1" for 192.168.1.4 at 2013-05-13 22:03:17 -0400
+
+ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfont.ttf"):
+  actionpack (3.2.10) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.10) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.10) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.10) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.10) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.10) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.10) lib/rails/engine.rb:479:in `call'
+  railties (3.2.10) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.10) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /Users/jeff/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /Users/jeff/.rvm/gems/ruby-1.9.2-p320@justin/gems/actionpack-3.2.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-13 22:03:42 -0400
+Processing by JustininController#index as HTML
+  Rendered justinin/index.html.erb within layouts/application (0.1ms)
+Compiled justinin.css  (219ms)  (pid 75332)
+Compiled application.css  (1ms)  (pid 75332)
+Completed 200 OK in 235ms (Views: 234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-13 22:03:43 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/justinin.css?body=1" for 127.0.0.1 at 2013-05-13 22:03:43 -0400
+Served asset /justinin.css - 200 OK (1ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2013-05-13 22:03:43 -0400
+Served asset /font-awesome.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff?v=3.0.1" for 127.0.0.1 at 2013-05-13 22:03:43 -0400
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
